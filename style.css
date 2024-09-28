@@ -2,57 +2,69 @@ body {
     max-width: 1580px;
 }
 
+.nav-item {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    color: brown;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    #mobile {
-        display: block;
+    .mobile {
+        display: none;
+        align-items: center;
     }
 
-    #desktop {
+
+    .desktop {
         display: none;
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    #mobile {
-        display: block;
+    .mobile {
+        display: none;
+        align-items: center;
     }
 
-    #desktop {
+
+    .desktop {
         display: none;
     }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    #mobile {
+    .mobile {
         display: none;
+        align-items: center;
     }
 
-    #desktop {
+    .desktop {
         display: block;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    #mobile {
+    .mobile {
         display: none;
     }
 
-    #desktop {
+    .desktop {
         display: block;
     }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    #mobile {
+    .mobile {
         display: none;
+
     }
 
-    #desktop {
+    .desktop {
         display: block;
     }
 }
