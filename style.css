@@ -2,6 +2,14 @@ body {
     max-width: 1580px;
 }
 
+#carousel-inner {
+    height: 300px;
+}
+
+#master-footer {
+    height: 100px;
+}
+
 .nav-item {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: medium;
