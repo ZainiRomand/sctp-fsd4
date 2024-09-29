@@ -3,7 +3,7 @@ body {
 }
 
 #carousel-inner {
-    height:fit-content;
+    height: fit-content;
 }
 
 #master-footer {
@@ -19,16 +19,24 @@ body {
 .h5-carousel {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 60px;
-    display: block;
-    color: ghostwhite;
+    font-weight: bold;
+    color: #0f0f0891;
 }
 
 .p-carousel {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: bold;
     display: block;
-    color: ghostwhite;
+    color: #0f0f0891;
 }
+
+.top-left {
+    position: absolute;
+    top: 32%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+  }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
