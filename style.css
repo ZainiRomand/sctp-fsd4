@@ -11,7 +11,7 @@ h3 {
 
 p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
     color: #0f0f0891;
 }
@@ -20,9 +20,9 @@ p {
     height: 100px;
 }
 
-#about-img {
+/* #about-img {
     max-height: 450px;
-}
+} */
 
 .nav-item {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -52,42 +52,27 @@ p {
     transform: translate(-50%, -50%);
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .mobile {
-        overflow: auto;
+.card {
+    width: 100%;
+    max-width: fit-content;
+}
+
+@media screen and (min-width: 300px){
+    .mobile-map {
+        display: block;
+    }
+
+    .desktop-map {
+        display: none;
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    .mobile {
-        overflow: auto;
+@media screen and (min-width: 700px){
+    .mobile-map {
+        display: none;
     }
 
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    .mobile {
-        overflow: auto;
-    }
-
-    .desktop {
-        overflow: hidden;
-    }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .desktop {
-        overflow: hidden;
-    }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    .desktop {
-        overflow: hidden;
+    .desktop-map {
+        display: block;
     }
 }
