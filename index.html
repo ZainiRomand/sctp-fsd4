@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 
-<body>
+<body class="mobile desktop">
     <header class="sticky-top">
         <div class="container-fluid bg-body-tertiary">
             <div class="row text-center">
@@ -52,44 +52,38 @@
     </header>
     <div class="container-fluid">
         <div class="row">
-            <div id="carouselExampleDark" class="carousel slide">
-                <div id="carouselExample" class="carousel slide">
-                    <div class="carousel-item active">
-                        <img src="./images/bread.webp" class="d-block w-100 " alt="image unable to load" title="Bread">
-                        <div class="top-left text-center carousel-caption d-none d-md-block">
-                            <h5 class="h5-carousel">BREAD</h5>
-                            <p class="p-carousel">Can bread about it</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./images/cake.webp" class="d-block w-100" alt="image unable to load" title="Cake">
-                        <div class="top-left text-center carousel-caption d-none d-md-block">
-                            <h5 class="h5-carousel">CAKE</h5>
-                            <p class="p-carousel">Cake my day</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./images/pastry.webp" class="d-block w-100" alt="image unable to load" title="Pastry">
-                        <div class="top-left text-center carousel-caption d-none d-md-block">
-                            <h5 class="h5-carousel">PASTRY</h5>
-                            <p class="p-carousel">Let's pastries</p>
-                        </div>
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-item active">
+                    <img src="./images/bread.webp" class="d-block w-100 shadow p-1 rounded" alt="image unable to load" title="Bread">
+                    <div class="top-left text-center carousel-caption d-none d-md-block">
+                        <h5 class="h5-carousel">BREAD</h5>
+                        <p class="p-carousel">Can bread about it</p>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+                <div class="carousel-item">
+                    <img src="./images/cake.webp" class="d-block w-100 shadow p-1 rounded" alt="image unable to load" title="Cake">
+                    <div class="top-left text-center carousel-caption d-none d-md-block">
+                        <h5 class="h5-carousel">CAKE</h5>
+                        <p class="p-carousel">Cake my day</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/pastry.webp" class="d-block w-100 shadow p-1 rounded" alt="image unable to load" title="Pastry">
+                    <div class="top-left text-center carousel-caption d-none d-md-block">
+                        <h5 class="h5-carousel">PASTRY</h5>
+                        <p class="p-carousel">Let's pastries</p>
+                    </div>
+                </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
             </button>
         </div>
-
     </div>
     <footer id="master-footer" class="container-fluid sticky-bottom bg-body-tertiary pt-3 ">
     </footer>

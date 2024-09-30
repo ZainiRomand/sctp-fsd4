@@ -2,12 +2,26 @@ body {
     max-width: 1580px;
 }
 
-#carousel-inner {
-    height: fit-content;
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #0f0f0891;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #0f0f0891;
 }
 
 #master-footer {
     height: 100px;
+}
+
+#about-img {
+    max-height: 450px;
 }
 
 .nav-item {
@@ -36,74 +50,44 @@ body {
     top: 32%;
     left: 12%;
     transform: translate(-50%, -50%);
-  }
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .mobile {
-        display: none;
-        align-items: center;
-    }
-
-
-    .desktop {
-        display: none;
+        overflow: auto;
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .mobile {
-        display: none;
-        align-items: center;
+        overflow: auto;
     }
 
-
-    .desktop {
-        display: none;
-    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .mobile {
-        display: none;
-        align-items: center;
+        overflow: auto;
     }
 
     .desktop {
-        display: block;
+        overflow: hidden;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .mobile {
-        display: none;
-    }
-
     .desktop {
-        display: block;
+        overflow: hidden;
     }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .mobile {
-        display: none;
-
-    }
-
     .desktop {
-        display: block;
+        overflow: hidden;
     }
-}
-
-.colx {
-    border: 1px solid red;
-}
-
-.containerx,
-.container-fluidx {
-    border: 1px solid green;
 }
