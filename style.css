@@ -57,7 +57,7 @@ p {
     max-width: fit-content;
 }
 
-@media (min-width: 300px){
+@media screen and (min-width: 480px){
     .mobile-visible {
         display: block;
     }
@@ -67,7 +67,7 @@ p {
     }
 }
 
-@media (min-width: 700px){
+@media screen and (min-width: 700px){
     .mobile-visible {
         display: none;
     }
