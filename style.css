@@ -58,21 +58,21 @@ p {
 }
 
 @media screen and (min-width: 300px){
-    .mobile-map {
+    .mobile-visible {
         display: block;
     }
 
-    .desktop-map {
+    .desktop-visible {
         display: none;
     }
 }
 
 @media screen and (min-width: 700px){
-    .mobile-map {
+    .mobile-visible {
         display: none;
     }
 
-    .desktop-map {
+    .desktop-visible {
         display: block;
     }
 }
